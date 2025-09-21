@@ -1,0 +1,70 @@
+// src/lib/types.ts
+export interface WalletState {
+  address: string | null;
+  isConnected: boolean;
+}
+
+export interface ExpectedEarning {
+  id: string;
+  amount: number;
+  description: string;
+  date: string;
+  isReceived: boolean;
+}
+
+export interface Invoice {
+  id: string;
+  amount: number;
+  description: string;
+  dueDate: string;
+  isPaid: boolean;
+}
+
+export interface Transaction {
+  id: string;
+  amount: number;
+  description: string;
+  date: string;
+  type: 'Purchase' | 'Expense';
+  category?: string; // Add category for overspending analysis
+}
+
+export interface SavingsGoal {
+  id: string;
+  targetAmount: number;
+  currentAmount: number;
+  description: string;
+  targetDate: string;
+}
+
+export interface NotificationSettings {
+  email: string;
+  enabled: boolean;
+}
+
+export interface Notification {
+  id: string;
+  message: string;
+  timestamp: string;
+}
+
+// New types for charts and analysis
+export interface OverspendingAlert {
+  id: string;
+  message: string;
+  category: string;
+  overAmount: number;
+  timestamp: string;
+}
+
+export interface MonthlyHistory {
+  month: string;
+  totalExpenses: number;
+  creditLine: number; // Mock line of credit
+  overspent: boolean;
+}
+
+export interface WalletState {
+  address: string | null;
+  isConnected: boolean;
+}

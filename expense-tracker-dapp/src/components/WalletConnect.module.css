@@ -1,0 +1,16 @@
+.container {
+  padding: 4px;
+}
+
+.button {
+  background-color: #4a90e2; /* Example color, adjust to match #f6e05e accent if preferred */
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #357abd; /* Darker shade on hover */
+}
