@@ -1,4 +1,4 @@
-# FDP - Filecoin Decentralized Payments
+# Filecoin_expense_tracker
 
 Welcome to **FDP**, a decentralized expense tracking application built for the **Filecoin Onchain**. FDP leverages the power of Filecoin's decentralized storage and payment infrastructure to provide a secure, scalable, and user-friendly platform for managing financial data. This README provides an in-depth overview, setup instructions, and technical details for developers and contributors.
 
